@@ -1,0 +1,465 @@
+body {
+    position: relative;
+    background: rgb(0, 0, 0);
+    font-family: "IBM Plex Mono", monospace;
+    font-weight: 400;
+    font-style: normal;
+    max-width: 1400px;
+}
+
+a {
+    color:rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+
+ul {
+    list-style: none;
+}
+
+.container {
+    float: inline-end;
+    position: absolute;
+    max-width: 1153px;
+}
+
+.header {
+    padding: 25px 125px 0px 125px;
+}
+
+.header .container {
+    display:flex;
+    justify-content: center;
+    padding-top: 6px;
+}
+
+
+.name__tag {
+    padding: 0px 12px;
+    color: rgb(27,255,7);
+    font-size: 40px;
+    font-weight: 700;
+    text-transform: uppercase;
+    background-image: url(resourses/logo.png);
+    background-repeat: no-repeat;
+    background-size: cover ;
+    border-radius: 100px;
+
+
+}
+
+.header__list {
+    padding-left: 520px;
+    padding-right: 125px;
+    display: flex;
+    gap: 50px;
+    vertical-align: text-top;
+}
+
+.header__nav a {
+    font-size: 18px;
+}
+
+.header__nav :hover {
+    color:rgb(27,255,7);
+}
+
+/* HEADER */
+
+main {
+    max-width: 1400px;
+}
+
+p {
+    color:rgb(255, 255, 255);
+}
+.welcome__desc {
+    padding-top: 334px;
+    width: 1400px;
+    height: 765px;
+    margin: -82px;
+    background-image: url(./resourses/sashaphoto.png);
+    background-position: 0%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-sizing: border-box;
+}
+
+.welcome__text {
+    padding-left: 130px;
+    width: 450px;
+    height: 103px;
+    font-size: 20px;
+    line-height: 26px;
+    text-align: left;
+}
+
+.weclome_hi {
+    padding-top: 30px;
+    padding-left: 125px;
+    color: rgb(27, 255, 7);
+    font-size: 90px;
+    font-weight: 400;
+    line-height: 70px;
+    text-align: left;
+}
+
+/* second-part  */
+
+
+.fresh__projects {
+    padding-top: 150px ;
+    padding-left: 120px;
+    padding-bottom: 40px;
+    color: rgb(255, 255, 255);
+    font-size: 55px;
+}
+
+
+.container__box {
+    height: 1650px;
+    margin: 0 auto;
+    padding-left: 125px;
+    padding-right: 125px; 
+    border-radius: 30px;
+}
+
+.project_realhome {
+    position: relative;
+    width: 1150px;
+    height: 550px;
+    background-image: url(./resourses/realhome.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-sizing: border-box;
+}
+
+.project__link1 {
+    position: absolute;
+    padding: 410px 0px 94px 50px;
+    width: 401px;
+    height: 46px;
+    font-size: 35px;
+}
+
+.project_1_desc {
+    position: absolute;
+    padding: 461px 0px 50px 50px;
+    width: 506px;
+    height: 39px;
+    font-size: 30px;
+}
+
+
+.project_glass {
+    width: 1150px;
+    height: 550px;
+    background-image: url(./resourses/glass.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-sizing: border-box;
+}
+
+.project__link2 {
+    position: absolute;
+    padding: 410px 0px 94px 50px;
+    width: 401px;
+    height: 46px;
+    font-size: 35px;
+}
+
+.project_2_desc {
+    position: absolute;
+    padding: 461px 0px 50px 50px;
+    width: 506px;
+    height: 39px;
+    font-size: 30px;
+}
+
+
+.project_fesiyen {
+    width: 1150px;
+    height: 550px;
+    background-image: url(./resourses/fesiyen.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-sizing: border-box;
+}
+
+.project__link3 {
+    position: absolute;
+    padding: 410px 0px 94px 50px;
+    width: 401px;
+    height: 46px;
+    font-size: 35px;
+}
+
+.project_3_desc {
+    position: absolute;
+    padding: 461px 0px 50px 50px;
+    width: 506px;
+    height: 39px;
+    font-size: 30px;
+}
+
+.project_view {
+    padding: 56px 86px;
+    margin-top: 80px;
+    display:block;
+    box-sizing: border-box;
+    width: 582px;
+    height: 153px;
+    border-radius: 10px;
+    background-color: rgb(27, 255, 7);
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+    text-align: center;
+}
+
+.project_view:hover {
+    border: 1px solid rgb(27, 255, 7); 
+    border-radius: 10px;
+    background-color: rgb(0, 0, 0);
+    color: rgb(27, 255, 7);
+}
+
+/* third-part  */
+
+.competence_list {
+    padding-top: 384px;
+    padding-left: 125px;
+    padding-right: 230px;
+}
+
+.competence {
+    padding-bottom: 104px;
+    width: 1048px;
+    height: 72px;
+    color: rgb(255, 255, 255);
+    font-size: 55px;
+    letter-spacing: -3%;
+    text-align: left;
+}
+
+.title_comp {
+    position: relative;
+    padding-bottom: 15px;
+    width: 1048px;
+    height: 46px;
+    color: rgb(27, 255, 7);
+    font-size: 35px;
+    line-height: 46px;
+    text-align: left;
+}
+
+.title_comp:before {
+    display: block;
+    position: absolute;
+    top: -70px;
+    content: '';
+    width: 45px;
+    height: 45px;
+    border-radius: 10px;
+    background-image: url(./mini-logo/first.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: 50%;
+
+}
+.card_2:before {
+    background-image: url(./mini-logo/second.png);
+}
+
+.card_3:before {
+    background-image: url(./mini-logo/third.png);
+}
+
+
+.title_comp_last {
+    position: sticky;
+    padding-bottom: 15px;
+    width: 1048px;
+    height: 92px;
+    color: rgb(27, 255, 7);
+    font-size: 35px;
+    line-height: 46px;
+    text-align: left;
+}
+
+.title_comp_last:before {
+    display: block;
+    position: absolute;
+    top: -70px;
+    content: '';
+    width: 45px;
+    height: 45px;
+    border-radius: 10px;
+    background-image: url(./mini-logo/four.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: 50%;
+}
+
+.competence_desc {
+    padding-bottom: 120px;
+    width:800px;
+    height: 145px;
+    font-size: 22px;
+    line-height: 29px;
+    text-align: left;
+}
+
+/* forth-part  */
+
+.skills_list {
+    max-width: 1150px;
+    padding-left: 125px;
+    padding-right: 125px;
+}
+
+.content_skill {
+    padding-bottom: 74px;
+    position: relative;
+    width: 420px;
+    height: 92px;
+    color: rgb(255, 255, 255);
+    font-size: 35px;
+    line-height: 46px;
+    text-align: left;
+}
+
+.title_skill {
+    position: relative;
+    padding-left: 40px;
+    padding-top: 40px;
+    padding-bottom: 15px;
+    position: relative;
+    width: 1060px;
+    height: 72px;
+    color: rgb(27, 255, 7);
+    font-size: 55px;
+    text-align: left;
+}
+
+.image_box {
+    position: absolute;
+    background-image: url(./skills-list/under\ all.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 1150px;
+    height: 283px;
+    border-radius: 30px;
+}
+
+.skill_desc {
+    padding-left: 40px;
+    position: absolute;
+    width: 760px;
+    height: 116px;
+    font-size: 22px;
+    line-height: 29px;
+    letter-spacing: -3%;
+    text-align: left;
+}
+
+.second_skill {
+    padding-top: 330px;
+}
+
+.third_skill {
+    padding-top: 330px;
+}
+
+/* fifth-part  */
+
+
+.social_links {
+    position:relative;
+    margin-top: 440px;
+    display: block;
+    box-sizing: border-box;
+    background-image: url(./skills-list/under\ all.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 1400px;
+    height: 717px;
+    border-radius: 30px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    background: rgb(25, 28, 25);
+}
+
+.programmer_boy {
+    position: absolute;
+    left: 50%;
+    top: -10.1%;
+    bottom: 32.33%;
+    width: 900px;
+    height: 840px;
+}
+
+.text_links {
+    padding: 407px 347px 20px 125px;
+    width: 210px;
+    height: 40px;
+    font-size: 35px;
+    text-align: left;
+}
+
+.socials {
+    padding-left: 125px;
+    display: block;
+    width: 310px;
+    height: 60px;
+    font-size: 60px;
+    text-align: left;
+}
+
+.socials:hover {
+    color: rgb(27, 255, 7);
+}
+
+/* footer-part  */
+
+.by {
+    position: relative;
+    margin-top: 150px;
+    display: block;
+    box-sizing: border-box;
+    width: 1400px;
+    height: 289px;
+    border-radius: 30px;
+    background: rgb(255, 255, 255);
+    background-image: url(./skills-list/white.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    
+}
+
+.aboutme {
+    padding-top: 76px;
+    padding-left: 125px;
+    padding-bottom: 66px;
+    position: absolute;
+    width: 512px;
+    height: 30px;
+    color: rgb(0, 0, 0);
+    font-family: Manrope;
+    font-size: 22px;
+    letter-spacing: -3%;
+    text-align: left;
+}
+
+.defenced {
+    padding-top: 172px;
+    padding-left: 125px;
+    padding-bottom: 90px;
+    width: 241px;
+    height: 27px;
+    opacity: 0.5;
+    color: rgb(0, 0, 0);
+    font-family: Manrope;
+    font-weight: 400;
+    font-size: 20px;
+    letter-spacing: -3%;
+    text-align: left;
+}
